@@ -28,6 +28,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--text);
   background-color: #ffff;
+  font-size: 16px;
   letter-spacing: 0.02em;
 }
 
@@ -37,8 +38,14 @@ body {
   font-style: normal;
 }
 
-.link-active:hover,
-.link-active:focus {
+.link-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.link-header:hover,
+.link-header:focus {
   color: var(--pressed-state);
 }
 
@@ -50,7 +57,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: left;
+  letter-spacing: 0.02em;
   color: #ffff;
 }
 
@@ -74,6 +81,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--dark);
 }
 
